@@ -77,14 +77,14 @@ li {
     background-size: 100%;
 }
 
-#img-2 {
+#text-2 {
     background-image: url(../img/item2.svg);
     background-size: 100%;
 }
 
 #img-3 {
     background-image: url(../img/item3.svg);
-    background-size: 100%;
+    background-size: 105%;
 }
 
 /* Blocco con riquadro verde */
