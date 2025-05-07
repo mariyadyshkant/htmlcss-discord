@@ -206,16 +206,22 @@ footer {
 
 #endline {
     display: flex;
-    background-color: antiquewhite;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    border-top: 1px solid #7289DA;
 }
 
-#logo-end,
-#button {
-    background-color: rgb(240, 83, 83);
+#logo-end {
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 30%;
+}
+
+#register {
+    width: 10%;
+    height: 30%;
 }
 
 /* TEXT */
@@ -274,4 +280,20 @@ h6 {
     font-style: bold;
     margin-top: 30px;
     margin-bottom: 0px;
+}
+
+.button {
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#Mac,
+#register {
+    background-color: #7289DA;
+    color: white;
 }
