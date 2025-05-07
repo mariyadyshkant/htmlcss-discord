@@ -268,7 +268,7 @@ footer .plain-text {
 
 }
 
-ul {
+footer ul {
     align-content: end;
     margin-top: 5px;
 }
@@ -335,4 +335,18 @@ h6 {
     width: 24px;
     height: 15px;
     vertical-align: middle;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0px;
+    margin: 5px;
+}
+
+header ul {
+    padding: 0px;
+    margin: 5px 0px;
+
 }
