@@ -1,6 +1,11 @@
 img {
     max-width: 1200px;
-    max-height: 270px;
+    max-height: 340px;
+}
+
+* {
+    font-family: Whitney, "Helvetica Neue", Arial, Helvetica, sans-serif;
+
 }
 
 /* Blocco Header */
@@ -68,7 +73,7 @@ li {
 }
 
 .bg-grey {
-    background-color: rgb(212, 208, 208);
+    background-color: #F6F6F6;
     /* background-image: url(../img/wave.svg); */
 }
 
@@ -126,31 +131,51 @@ li {
 
 #img-1,
 #img-3 {
-    width: 65%;
-
+    width: 60%;
+    max-height: 260px;
 }
 
 #text-1,
 #text-3 {
-    width: 35%;
+    width: 30%;
 
 }
 
 #img-2 {
-    width: 35%;
+    width: 30%;
 
     background-size: 100%;
 
 }
 
 #text-2 {
-    width: 65%;
+    width: 60%;
+    max-height: 255px;
 }
 
 /* RIQUADRO VERDE */
 
 #green {
-    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#green-img {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+img #green-img {
+    max-height: 0px;
+}
+
+.green-text {
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: center;
 }
 
 /* FOOTER */
@@ -167,23 +192,16 @@ footer {
 
 #endpage {
     display: flex;
-    background-color: rosybrown;
     flex-direction: row;
     min-height: 330px;
-    border: 1px dotted white;
-
-
 }
 
 #social {
-    background-color: rgb(154, 75, 214);
     width: 28%;
 }
 
 .page-column {
-    background-color: aquamarine;
     width: 18%;
-    border: 1px dotted white;
 }
 
 #endline {
@@ -195,13 +213,65 @@ footer {
 
 }
 
-#whiteline {
-    border: 1px solid rgb(244, 239, 239);
-    height: 0px;
-    width: auto;
-}
-
 #logo-end,
 #button {
     background-color: rgb(240, 83, 83);
+}
+
+/* TEXT */
+
+h1 {
+    font-size: 35px;
+}
+
+.jumbo-text {
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: left;
+
+}
+
+.plain-text {
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+footer .plain-text {
+    line-height: 1.8;
+    text-align: left;
+    padding: 0px;
+    color: white;
+
+}
+
+ul {
+    align-content: end;
+    margin-top: 5px;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h5 {
+    color: #7289DA;
+    font-style: bold;
+    font-size: 25px;
+    margin: 23px 0px;
+}
+
+h4 {}
+
+h6 {
+    color: #7289DA;
+    font-style: bold;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
