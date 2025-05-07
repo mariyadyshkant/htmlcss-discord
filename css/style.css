@@ -1,0 +1,207 @@
+img {
+    max-width: 1200px;
+    max-height: 270px;
+}
+
+/* Blocco Header */
+header {
+    background-color: #3161E0;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#header-up {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* Container generale (uguale per tutti) */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 95%;
+    justify-content: space-between;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+}
+
+.yellowbox {
+    width: 50%;
+    height: 80%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* Blocchi del Main (i riquadri più grandi) */
+.txt-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 335px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+
+}
+
+.bg-grey {
+    background-color: rgb(212, 208, 208);
+    /* background-image: url(../img/wave.svg); */
+}
+
+#img-1 {
+    background-image: url(../img/item1.svg);
+    background-size: 100%;
+}
+
+#img-2 {
+    background-image: url(../img/item2.svg);
+    background-size: 100%;
+}
+
+#img-3 {
+    background-image: url(../img/item3.svg);
+    background-size: 100%;
+}
+
+/* Blocco con riquadro verde */
+.greenbox {
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Piccoli riquadri dell'header */
+#Logo {
+    width: 20%;
+    background-color: #3161E0;
+}
+
+#link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+    background-color: #3161E0;
+}
+
+#Login {
+    width: 20%;
+    background-color: #3161E0;
+}
+
+#accedi {
+    width: 30px;
+    height: 15px;
+    background-color: #FFFFFF;
+
+}
+
+/* Piccoli riquadri del MAIN */
+
+#img-1,
+#img-3 {
+    width: 65%;
+
+}
+
+#text-1,
+#text-3 {
+    width: 35%;
+
+}
+
+#img-2 {
+    width: 35%;
+
+    background-size: 100%;
+
+}
+
+#text-2 {
+    width: 65%;
+}
+
+/* RIQUADRO VERDE */
+
+#green {
+    background-color: green;
+}
+
+/* FOOTER */
+footer {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(42, 40, 40);
+
+}
+
+#endpage {
+    display: flex;
+    background-color: rosybrown;
+    flex-direction: row;
+    min-height: 330px;
+    border: 1px dotted white;
+
+
+}
+
+#social {
+    background-color: rgb(154, 75, 214);
+    width: 28%;
+}
+
+.page-column {
+    background-color: aquamarine;
+    width: 18%;
+    border: 1px dotted white;
+}
+
+#endline {
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#whiteline {
+    border: 1px solid rgb(244, 239, 239);
+    height: 0px;
+    width: auto;
+}
+
+#logo-end,
+#button {
+    background-color: rgb(240, 83, 83);
+}
