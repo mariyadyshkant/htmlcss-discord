@@ -94,7 +94,7 @@ li {
 
 /* Blocco con riquadro verde */
 .greenbox {
-    height: 560px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,13 +163,25 @@ li {
 }
 
 #green-img {
-    height: 80%;
+    height: 60%;
     display: flex;
     justify-content: center;
 }
 
 img #green-img {
     max-height: 0px;
+}
+
+#green-download {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    background-image: url(../img/stars.svg);
+    background-size: 380px;
+    width: 390px;
+    background-repeat: no-repeat;
 }
 
 .green-text {
@@ -273,7 +285,9 @@ h5 {
     margin: 23px 0px;
 }
 
-h4 {}
+h4 {
+    margin: 0px;
+}
 
 h6 {
     color: #7289DA;
@@ -290,10 +304,17 @@ h6 {
     font-weight: bold;
     text-align: center;
     padding: 10px 20px;
+    margin: 0px;
 }
 
 #Mac,
 #register {
     background-color: #7289DA;
     color: white;
+}
+
+#Mac {
+    width: 40%;
+    height: 20%;
+    padding: 8px 20px 12px 20px;
 }
